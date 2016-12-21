@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER Christophe Furmaniak <christophe.furmaniak@gmail.com>
+MAINTAINER Tito Duarte <duartito@gmail.com>
 
 RUN apk add --update curl bash grep tar sed \
     && rm -rf /var/cache/apk/* \
